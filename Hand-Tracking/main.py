@@ -6,7 +6,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 
 # Open webcam for capturing video
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 # Create loop to read frames from webcam
 while True:
